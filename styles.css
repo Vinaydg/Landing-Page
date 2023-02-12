@@ -9,7 +9,7 @@ body {
     padding: 0;
 }
 
-.navbar {
+.navbar, .footer {
     background-color: #1f2937;
 }
 
@@ -26,3 +26,97 @@ body {
 .introduction {
     background-color: #1f2937;
 }
+
+.introduction > .site-intro > .website-header {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+}
+
+.introduction > .site-intro > .website-text {
+    font-size: 24px;
+    color: #E5E7EB;
+}
+
+.introduction > .site-intro > .signup-button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: 0;
+}
+
+.introduction > .placeholder {
+    background-color: #8a8c8f;
+}
+.introduction > .placeholder > .placeholder-text {
+    font-size: 24px;
+    color: #E5E7EB;
+}
+
+.information {
+    background-color: #F9FAF8;
+}
+
+.information > .random-information > .random-information-text {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f2937;
+}
+
+.information > .illustrations > .illustration-item > .illustration-box {
+    border: 2px solid #3882F6;
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+.information > .illustrations > .illustration-item > .illustration-text {
+    font-size: 18px;
+    color: #8a8c8f;
+}
+
+.quote {
+    background-color: #E5E7EB;
+}
+
+.quote > .quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+    color: #1f2937;
+}
+
+.quote > .quote-author {
+    font-size: 24px;
+    font-weight: bold;
+    color: #1f2937;
+}
+
+.signup-section {
+    background-color: #3882F6;
+}
+
+.signup-section > .signup-text > h3{
+    font-size: 26px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.signup-section > .signup-text > p{
+    font-size: 20px;
+    color: #E5E7EB;
+}
+
+.signup-section > .signup > button {
+    background-color: #3882F6;
+    border: 0.5px solid #F9FAF8;
+    color: #F9FAF8;
+    font-size: 22px;
+    border-radius: 7px;
+}
+
+.footer > .footer-text {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-align: center;
+}
+
