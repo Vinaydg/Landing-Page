@@ -1,3 +1,28 @@
 * {
     box-sizing: border-box;
 }
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #1f2937;
+}
+
+.navbar > .header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.navbar > .header-right-links {
+    font-size: 24px;
+    color: #E5E7EB;
+}
+
+.introduction {
+    background-color: #1f2937;
+}
